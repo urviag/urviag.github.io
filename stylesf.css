@@ -55,8 +55,8 @@ body {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.3rem;
-    padding-left: 1.3rem;
+    padding-right: 2.4rem;
+    padding-left: 2.4rem;
 }
 
 .my-toggler {
@@ -93,8 +93,7 @@ body {
 .story h1{
     font-family: "MrsEavesSmallCaps Regular";
     line-height: 1;
-    font-weight: 200;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-size: 30px;
     padding-top: 20px;
 }
@@ -106,7 +105,7 @@ body {
     line-height: 2.5;
     text-transform: none;
     letter-spacing: normal;
-    font-size: 16.8px;
+    font-size: 14px;
     color: #876d5f;
 }
 
@@ -116,5 +115,81 @@ body {
     background-size: 80%;
     background-position: center center;
     background-color: white;
-    height: 140px;
+    height: 40px;
+}
+
+
+.subpageheader .belowphoto {
+    display: inline-block;
+    background-image: url(belowphoto.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 65px;
+    width: 65px;
+}
+
+.subpageheader .bride {
+    font-family: 'Lovers Quarrel', cursive;
+    text-align: right;
+    font-size: 60px;
+    color: #876d5f;
+    line-height: 1;
+}
+
+.subpageheader .groom {
+    font-family: 'Lovers Quarrel', cursive;
+    text-align: left;
+    font-size: 60px;
+    color: #876d5f;
+    line-height: 1;
+}
+
+
+.event {    
+    font-family: 'Lovers Quarrel', cursive;
+    text-align: left;
+    font-size: 60px;
+    color: #876d5f;
+    line-height: 1;
+    width: 400px;   
+    padding-left: 10px;
+}
+
+.date {
+    font-family: "MrsEavesSmallCaps Regular";
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-align: left;
+    color: #876d5f;
+    line-height: 1;   
+    width: 400px;
+    padding-left: 10px;
+}
+
+.message {
+    font-family: 'Mr Bedfort', cursive;
+    font-weight: 400;
+    font-style: Normal;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 16.8px;
+    color: #876d5f;
+    text-align: left;
+    width: 400px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.timelinephoto img {
+    width: 400px;
+    height: 250px;
+    border: 8px solid rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
+    display: block;
+}   
+
+.space {
+    padding-bottom: 50px;
 }
