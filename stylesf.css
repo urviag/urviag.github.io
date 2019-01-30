@@ -21,6 +21,15 @@ body {
     height: 150px;
 }
 
+.footer {
+    background-image: url(divider.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:white;
+    height: 150px;
+}
+
+
 .couplename {
     font-family: 'Lovers Quarrel', cursive;
     text-align: center;
@@ -94,7 +103,7 @@ body {
     font-family: "MrsEavesSmallCaps Regular";
     line-height: 1;
     letter-spacing: 2px;
-    font-size: 30px;
+    font-size: 20px;
     padding-top: 20px;
 }
 
@@ -115,9 +124,8 @@ body {
     background-size: 80%;
     background-position: center center;
     background-color: white;
-    height: 40px;
+    height: 30px;
 }
-
 
 .subpageheader .belowphoto {
     display: inline-block;
@@ -145,29 +153,26 @@ body {
     line-height: 1;
 }
 
-
-.event {    
+.eventr {    
     font-family: 'Lovers Quarrel', cursive;
-    text-align: left;
+    text-align: center;
     font-size: 60px;
     color: #876d5f;
-    line-height: 1;
-    width: 400px;   
-    padding-left: 10px;
+    line-height: 1;  
+    padding-left: 70px;
 }
 
-.date {
+.dater {
     font-family: "MrsEavesSmallCaps Regular";
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    text-align: left;
+    text-align: center;
     color: #876d5f;
     line-height: 1;   
-    width: 400px;
-    padding-left: 10px;
+    padding-left: 70px;
 }
 
-.message {
+.messager {
     font-family: 'Mr Bedfort', cursive;
     font-weight: 400;
     font-style: Normal;
@@ -176,20 +181,153 @@ body {
     letter-spacing: normal;
     font-size: 16.8px;
     color: #876d5f;
-    text-align: left;
-    width: 400px;
-    padding-left: 10px;
-    padding-bottom: 20px;
+    text-align: center;
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
+
+.eventl {    
+    font-family: 'Lovers Quarrel', cursive;
+    text-align: center;
+    font-size: 60px;
+    color: #876d5f;
+    line-height: 1;  
+    padding-right: 70px;
+}
+
+.datel {
+    font-family: "MrsEavesSmallCaps Regular";
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: #876d5f;
+    line-height: 1;   
+    padding-right: 70px;
+}
+
+.messagel {
+    font-family: 'Mr Bedfort', cursive;
+    font-weight: 400;
+    font-style: Normal;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 16.8px;
+    color: #876d5f;
+    text-align: center;
+    padding-right: 70px;
+    padding-bottom: 40px;
 }
 
 .timelinephoto img {
-    width: 400px;
-    height: 250px;
     border: 8px solid rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
     display: block;
 }   
 
 .space {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
+
+.comingsoon {   
+        font-family: 'Lovers Quarrel', cursive;
+        text-align: center;
+        font-size: 30px;
+        color: #876d5f;
+        line-height: 1; 
+        padding-left: 10px;
+}
+
+.aboutusnamer {    
+    font-family: 'Lovers Quarrel', cursive;
+    text-align: center;
+    font-size: 35px;
+    color: #876d5f;
+    line-height: 1;  
+    padding-left: 70px;
+}
+
+.aboutusmessager {
+    font-family: 'Mr Bedfort', cursive;
+    font-weight: 400;
+    font-style: Normal;
+    line-height: 1.5;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 16.8px;
+    color: #876d5f;
+    text-align: center;
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
+
+.aboutusnamel {    
+    font-family: 'Lovers Quarrel', cursive;
+    text-align: center;
+    font-size: 35px;
+    color: #876d5f;
+    line-height: 1;  
+    padding-right: 70px;
+}
+
+.aboutusmessagel {
+    font-family: 'Mr Bedfort', cursive;
+    font-weight: 400;
+    font-style: Normal;
+    line-height: 1.5;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 16.8px;
+    color: #876d5f;
+    text-align: center;
+    padding-right: 70px;
+    padding-bottom: 40px;
+}
+
+.aboutusphoto img {
+    border: 8px solid rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
+    display: block;
+} 
+
+.familyname {    
+    font-family: 'Lovers Quarrel', cursive;
+    text-align: center;
+    font-size: 35px;
+    color: #876d5f;
+    line-height: 1;  
+}
+
+.familybio {
+    font-family: 'Mr Bedfort', cursive;
+    font-weight: 400;
+    font-style: Normal;
+    line-height: 1.5;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 16.8px;
+    color: #876d5f;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.familyrelation {
+    font-family: "MrsEavesSmallCaps Regular";
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: #876d5f;
+    line-height: 1;   
+}
+
+.familyphoto img {
+    border: 8px solid rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
+    display: block;
+}
+
+.btn-secondary {
+    background-color: #876d5f;
+    border-color: #876d5f;
+}
+
