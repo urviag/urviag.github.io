@@ -156,7 +156,7 @@ body {
 .eventr {    
     font-family: 'Lovers Quarrel', cursive;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     color: #876d5f;
     line-height: 1;  
     padding-left: 70px;
@@ -189,7 +189,7 @@ body {
 .eventl {    
     font-family: 'Lovers Quarrel', cursive;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     color: #876d5f;
     line-height: 1;  
     padding-right: 70px;
@@ -330,4 +330,3 @@ body {
     background-color: #876d5f;
     border-color: #876d5f;
 }
-
