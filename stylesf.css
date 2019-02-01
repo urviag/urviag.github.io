@@ -95,6 +95,7 @@ body {
     box-sizing: border-box;
     border: 8px solid rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
+    margin: auto;
     text-align: center; /* <---- THIS DOESNT WORK*/
 }
 
@@ -194,6 +195,7 @@ body {
     border: 8px solid rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
     display: block;
+    margin: auto;
     text-align: center; /* <---- THIS DOESNT WORK*/
 } 
 
@@ -235,7 +237,7 @@ body {
 
 /* EVENTS.HTML */
 
-.eventr {    
+.event {    
     font-family: 'Lovers Quarrel', cursive;
     text-align: center;
     font-size: 40px;
@@ -243,7 +245,7 @@ body {
     line-height: 1;  
 }
 
-.dater {
+.date {
     font-family: "MrsEavesSmallCaps Regular";
     text-transform: uppercase;
     letter-spacing: 2.5px;
@@ -252,37 +254,7 @@ body {
     line-height: 1;   
 }
 
-.messager {
-    font-family: 'Mr Bedfort', cursive;
-    font-weight: 400;
-    font-style: Normal;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    font-size: 16.8px;
-    color: #876d5f;
-    text-align: center;
-    padding-bottom: 40px;
-}
-
-.eventl {    
-    font-family: 'Lovers Quarrel', cursive;
-    text-align: center;
-    font-size: 40px;
-    color: #876d5f;
-    line-height: 1;  
-}
-
-.datel {
-    font-family: "MrsEavesSmallCaps Regular";
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    text-align: center;
-    color: #876d5f;
-    line-height: 1;   
-}
-
-.messagel {
+.message {
     font-family: 'Mr Bedfort', cursive;
     font-weight: 400;
     font-style: Normal;
@@ -299,7 +271,7 @@ body {
     border: 8px solid rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
     display: block;
-    text-align: center; /* <---- THIS DOESNT WORK*/
+    margin: auto;
 }   
 
 /* WEDDING.HTML */
@@ -311,6 +283,8 @@ body {
         color: #876d5f;
         line-height: 1; 
 }
+
+/* CAROUSEL */
 
 .btn-secondary {
     background-color: #876d5f;
