@@ -1,3 +1,5 @@
+/* COMMON STYLING ACROSS PAGES */
+
 body {
     font-family: "MrsEavesRoman Regular";
     line-height: 1;
@@ -12,45 +14,12 @@ body {
     text-align: center;
 }
 
-
 .header {
     background-image: url(Background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: white;
     height: 150px;
-}
-
-.footer {
-    background-image: url(divider.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color:white;
-    height: 150px;
-}
-
-
-.couplename {
-    font-family: 'Lovers Quarrel', cursive;
-    text-align: center;
-    font-size: 80px;
-    color: #876d5f;
-    line-height: 1;
-
-}
-
-.and {
-    font-family: "MrsEavesSmallCaps Regular";
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    text-align: center;
-    color: #876d5f;
-    line-height: 1;
-}
-
-.row .name {
-    height: 220px;
-    background-color: white;
 }
 
 .nav-link {
@@ -68,6 +37,7 @@ body {
     padding-left: 2.4rem;
 }
 
+/* introduced this to make "MENU" theme coloured, not sure how the toggler button for nav can be coloured --- NEED TO CHECK */
 .my-toggler {
     border-color: #876d5f;
     color: #876d5f;
@@ -80,15 +50,53 @@ body {
     font-size: 15.4px;
 }
 
+.end {
+    background-image: url(divider.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center center;
+    background-color: white;
+    height: 30px;
+}
+
+.space {
+    padding-bottom: 30px;
+}
+
+/* INDEX.HTML  */
+
+.couplename {
+    font-family: 'Lovers Quarrel', cursive;
+    text-align: center;
+    font-size: 80px;
+    color: #876d5f;
+    line-height: 1;
+}
+
+/* to make the couple names on top more responsive --- THIS DOESNT WORK */
+@include media-breakpoint-up(sm) {
+    .couplename {
+      font-size: 20px;
+    }
+  }
+
+.and {
+    font-family: "MrsEavesSmallCaps Regular";
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: #876d5f;
+    line-height: 1;
+}
+
 .couplephoto {
     display: block;
-    width: 100%;
-    margin-bottom: 30px;
+    width: 80%;
     box-sizing: border-box;
     border: 8px solid rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
+    text-align: center; /* <---- THIS DOESNT WORK*/
 }
-
 
 .belowphoto {
     background-image: url(belowphoto.png);
@@ -104,7 +112,6 @@ body {
     line-height: 1;
     letter-spacing: 2px;
     font-size: 20px;
-    padding-top: 20px;
 }
 
 .story p{
@@ -118,14 +125,7 @@ body {
     color: #876d5f;
 }
 
-.end {
-    background-image: url(divider.png);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: center center;
-    background-color: white;
-    height: 30px;
-}
+/* COMMON ACROSS ALL SUBPAGES */
 
 .subpageheader .belowphoto {
     display: inline-block;
@@ -133,121 +133,51 @@ body {
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 65px;
-    width: 65px;
+    height: 50px;
+    width: 50px;
 }
 
-.subpageheader .bride {
+.bride {
     font-family: 'Lovers Quarrel', cursive;
-    text-align: right;
-    font-size: 60px;
+    text-align: center;
+    font-size: 55px;
     color: #876d5f;
     line-height: 1;
 }
 
-.subpageheader .groom {
+/* to make the couple names on top more responsive --- THIS DOESNT WORK */
+@include media-breakpoint-up(sm) {
+    .bride {
+      font-size: 15px;
+    }
+  }
+
+.groom {
     font-family: 'Lovers Quarrel', cursive;
-    text-align: left;
-    font-size: 60px;
+    text-align: center;
+    font-size: 55px;
     color: #876d5f;
     line-height: 1;
 }
 
-.eventr {    
-    font-family: 'Lovers Quarrel', cursive;
-    text-align: center;
-    font-size: 40px;
-    color: #876d5f;
-    line-height: 1;  
-    padding-left: 70px;
-}
+/* to make the couple names on top more responsive --- THIS DOESNT WORK */
+@include media-breakpoint-up(sm) {
+    .groom {
+      font-size: 15px;
+    }
+  }
 
-.dater {
-    font-family: "MrsEavesSmallCaps Regular";
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    text-align: center;
-    color: #876d5f;
-    line-height: 1;   
-    padding-left: 70px;
-}
+/*ABOUTUS.HTML*/
 
-.messager {
-    font-family: 'Mr Bedfort', cursive;
-    font-weight: 400;
-    font-style: Normal;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    font-size: 16.8px;
-    color: #876d5f;
-    text-align: center;
-    padding-left: 70px;
-    padding-bottom: 40px;
-}
-
-.eventl {    
-    font-family: 'Lovers Quarrel', cursive;
-    text-align: center;
-    font-size: 40px;
-    color: #876d5f;
-    line-height: 1;  
-    padding-right: 70px;
-}
-
-.datel {
-    font-family: "MrsEavesSmallCaps Regular";
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    text-align: center;
-    color: #876d5f;
-    line-height: 1;   
-    padding-right: 70px;
-}
-
-.messagel {
-    font-family: 'Mr Bedfort', cursive;
-    font-weight: 400;
-    font-style: Normal;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    font-size: 16.8px;
-    color: #876d5f;
-    text-align: center;
-    padding-right: 70px;
-    padding-bottom: 40px;
-}
-
-.timelinephoto img {
-    border: 8px solid rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
-    display: block;
-}   
-
-.space {
-    padding-bottom: 30px;
-}
-
-.comingsoon {   
-        font-family: 'Lovers Quarrel', cursive;
-        text-align: center;
-        font-size: 30px;
-        color: #876d5f;
-        line-height: 1; 
-        padding-left: 10px;
-}
-
-.aboutusnamer {    
+.aboutusname {    
     font-family: 'Lovers Quarrel', cursive;
     text-align: center;
     font-size: 35px;
     color: #876d5f;
     line-height: 1;  
-    padding-left: 70px;
 }
 
-.aboutusmessager {
+.aboutusmessage {
     font-family: 'Mr Bedfort', cursive;
     font-weight: 400;
     font-style: Normal;
@@ -257,30 +187,6 @@ body {
     font-size: 16.8px;
     color: #876d5f;
     text-align: center;
-    padding-left: 70px;
-    padding-bottom: 40px;
-}
-
-.aboutusnamel {    
-    font-family: 'Lovers Quarrel', cursive;
-    text-align: center;
-    font-size: 35px;
-    color: #876d5f;
-    line-height: 1;  
-    padding-right: 70px;
-}
-
-.aboutusmessagel {
-    font-family: 'Mr Bedfort', cursive;
-    font-weight: 400;
-    font-style: Normal;
-    line-height: 1.5;
-    text-transform: none;
-    letter-spacing: normal;
-    font-size: 16.8px;
-    color: #876d5f;
-    text-align: center;
-    padding-right: 70px;
     padding-bottom: 40px;
 }
 
@@ -288,6 +194,7 @@ body {
     border: 8px solid rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
     display: block;
+    text-align: center; /* <---- THIS DOESNT WORK*/
 } 
 
 .familyname {    
@@ -324,6 +231,85 @@ body {
     border: 8px solid rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
     display: block;
+}
+
+/* EVENTS.HTML */
+
+.eventr {    
+    font-family: 'Lovers Quarrel', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: #876d5f;
+    line-height: 1;  
+}
+
+.dater {
+    font-family: "MrsEavesSmallCaps Regular";
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: #876d5f;
+    line-height: 1;   
+}
+
+.messager {
+    font-family: 'Mr Bedfort', cursive;
+    font-weight: 400;
+    font-style: Normal;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 16.8px;
+    color: #876d5f;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.eventl {    
+    font-family: 'Lovers Quarrel', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: #876d5f;
+    line-height: 1;  
+}
+
+.datel {
+    font-family: "MrsEavesSmallCaps Regular";
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: #876d5f;
+    line-height: 1;   
+}
+
+.messagel {
+    font-family: 'Mr Bedfort', cursive;
+    font-weight: 400;
+    font-style: Normal;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 16.8px;
+    color: #876d5f;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.timelinephoto img {
+    border: 8px solid rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
+    display: block;
+    text-align: center; /* <---- THIS DOESNT WORK*/
+}   
+
+/* WEDDING.HTML */
+
+.comingsoon {   
+        font-family: 'Lovers Quarrel', cursive;
+        text-align: center;
+        font-size: 30px;
+        color: #876d5f;
+        line-height: 1; 
 }
 
 .btn-secondary {
